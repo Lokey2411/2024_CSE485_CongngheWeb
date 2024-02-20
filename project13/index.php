@@ -77,6 +77,7 @@ quốc tế.',
         // Thêm các khóa học khác vào đây
     ];
     // Hiển thị danh sách khóa học
+    echo '<div class="title">Khóa học sắp khai giảng</div>';
     echo '<div class="container">';
     foreach ($courses as $course) {
 
