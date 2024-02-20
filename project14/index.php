@@ -12,7 +12,7 @@
     <div class="container">
 
         <?php 
-    function createInputField($title, $inputElement){
+    function getInputField($title, $inputElement){
         return "
             <div class='input-field'>
                 <label class='input-title'>$title:</label>
@@ -27,18 +27,32 @@
             <div class='form-item'>
                 <h3 class='form-title'>$title</h3>";
         foreach($inputFields as $title => $inputElement){
-                    $result .= createInputField($title, $inputElement);
+                    $result .= getInputField($title, $inputElement);
                 }
-        return $result."
+        echo $result."
             </div>
         ";
     }
+    $genderChild = "
+            <div class='input-field__radio'>
+    ";
+    $genders = [
+        "Male",
+        "Female",
+        "XXX",
+        "YYY",
+    ];
+    foreach($genders as $item){
+        $genderChild .= "<input type='radio' name='gender' value='$item'/>$item";
+    }
+    $genderChild .= "</div>";
     $elements = [
         "Employee ID" => "<p>9</p>",
         "Last Name"=> "Jackson",
         "First Name" => "Michael",
+        "Gender" => $genderChild
     ];
-    echo createForm("Basic Info", $elements);
+    createForm("Basic Info", $elements);
     ?>
     </div>
 </body>
