@@ -26,6 +26,10 @@ h1{
     margin-bottom: 20px;
 }
 
+.course img{
+    width: 100%;
+}
+
 .course h2 {
     color: #333;
     padding: 12px 0;

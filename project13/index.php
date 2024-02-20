@@ -19,7 +19,8 @@ Aptech Global. Phát triển nghề nghiệp sinh viên IT như một lập trì
 quốc tế.',
             'fee' => '15.000.000 VND',
             'start_date' => '2/2/24',
-            'duration' => '2 - 2.5 năm'
+            'duration' => '2 - 2.5 năm',
+            'image' => 'course.jpg'
         ],
         // Thêm các khóa học khác vào đây
         [
@@ -28,7 +29,8 @@ quốc tế.',
 .',
             'fee' => '20.000.000 VND',
             'start_date' => '5/5/24',
-            'duration' => '1.5 - 2 năm'
+            'duration' => '1.5 - 2 năm',
+            'image' => 'course.jpg'
         ],
         [
             'title' => 'Học viên quốc tế',
@@ -37,7 +39,8 @@ Aptech Global. Phát triển nghề nghiệp sinh viên IT như một lập trì
 quốc tế.',
             'fee' => '15.000.000 VND',
             'start_date' => '2/2/24',
-            'duration' => '2 - 2.5 năm'
+            'duration' => '2 - 2.5 năm',
+            'image' => 'course.jpg'
         ],
         [
             'title' => 'Khóa học Full-stack Development',
@@ -45,7 +48,8 @@ quốc tế.',
 .',
             'fee' => '20.000.000 VND',
             'start_date' => '5/5/24',
-            'duration' => '1.5 - 2 năm'
+            'duration' => '1.5 - 2 năm',
+            'image' => 'course.jpg'
         ],
         [
             'title' => 'Học viên quốc tế',
@@ -54,7 +58,8 @@ Aptech Global. Phát triển nghề nghiệp sinh viên IT như một lập trì
 quốc tế.',
             'fee' => '15.000.000 VND',
             'start_date' => '2/2/24',
-            'duration' => '2 - 2.5 năm'
+            'duration' => '2 - 2.5 năm',
+            'image' => 'course.jpg'
         ],
         [
             'title' => 'Khóa học Full-stack Development',
@@ -62,7 +67,8 @@ quốc tế.',
 .',
             'fee' => '20.000.000 VND',
             'start_date' => '5/5/24',
-            'duration' => '1.5 - 2 năm'
+            'duration' => '1.5 - 2 năm',
+            'image' => 'course.jpg'
         ]
     ];
 
@@ -70,7 +76,7 @@ quốc tế.',
     // Hiển thị danh sách khóa học
     foreach ($courses as $course) {
         echo '<div class="course">';
-        // img
+        echo '<img src="'.$course['image'].'" alt="course image">';
         echo '<h2>'.$course['title'].'</h2>';
         echo '<p>'.$course['description'].'</p>';
         echo '<p><i class="fa-solid fa-money-check-dollar"></i>Học phí: '.$course['fee'].'</p>';
