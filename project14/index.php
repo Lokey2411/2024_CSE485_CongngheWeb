@@ -67,12 +67,12 @@
     }
     $adminElement .= "</select>";
     $basicInfo = [
-        "Employee ID" => "<p>9</p>",
-        "Last Name"=> "Jackson",
-        "First Name" => "<input type='text' name='firstName' class='form-input  w-full' value='Hà' />",
+        "Employee ID" => "<p>5</p>",
+        "Last Name"=> "Đức",
+        "First Name" => "<input type='text' name='firstName' class='form-input  w-full' value='Quý' />",
         "Gender" => $genderChild,
         "Title"=>"<input type='text' name='title' class='form-input  w-full' value='Fullstack Dev' />",
-        "Suffix"=>getInputTextElement("suffix", "Ms."),
+        "Suffix"=>getInputTextElement("suffix", "Mr."),
         "Birth Date"=>getInputTextElement("birthDate", "1999-01-01", "date"),
         "Hire date"=>getInputTextElement("hireDate", "2021-01-01", "date"),
         "SSN # (if applicable)"=>getInputTextElement("ssn"),
@@ -97,7 +97,7 @@
     $countryElement .= "</select>";
     $contactInfo = [
         "Email"=>getInputTextElement("email", "", "text", "name@example.com"),
-        "Address"=>getInputTextElement("address", "Cầu Giấy"),
+        "Address"=>getInputTextElement("address", "Lĩnh Nam"),
         "City"=>getInputTextElement("city", "Hà Nội"),
         "Region"=>getInputTextElement("region"),
         "Postal Code"=>getInputTextElement("postalCode"),
