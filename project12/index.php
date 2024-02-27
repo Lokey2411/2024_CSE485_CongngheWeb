@@ -78,9 +78,9 @@
 <body>
     <?php
     $eduItems = [
-    "Tuyển sinh đại học",
-    "Tuyển sinh thạc sĩ",
-    "Tuyển sinh tiến sĩ"
+    "Sub Item 1",
+    "Sub Item 2",
+    "Sub Item 3"
     ];
 $navItems = [
     ["title"=> "GIỚI THIỆU","subitems"=>[] ],

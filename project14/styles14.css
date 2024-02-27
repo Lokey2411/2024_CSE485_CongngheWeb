@@ -86,6 +86,7 @@ input[type="radio"] {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	cursor: pointer;
 }
 
 .arrows,
@@ -106,6 +107,5 @@ input[type="radio"] {
 }
 
 .footer-btn-actions > * {
-	cursor: pointer;
 	color: white;
 }
