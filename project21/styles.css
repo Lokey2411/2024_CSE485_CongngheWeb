@@ -1,0 +1,19 @@
+/* Định dạng CSS cho danh sách sản phẩm */
+.product-list {
+  /* CSS cho danh sách sản phẩm */
+}
+
+/* Định dạng CSS cho mỗi sản phẩm */
+.product {
+  /* CSS cho mỗi sản phẩm */
+}
+
+/* Định dạng CSS cho phân trang */
+.pagination {
+  /* CSS cho phân trang */
+}
+
+/* Định dạng CSS cho trang hiện tại */
+.pagination .active {
+  /* CSS cho trang hiện tại */
+}
