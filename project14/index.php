@@ -7,7 +7,7 @@
     <link href="https://db.onlinewebfonts.com/c/a2a94cf6532d40147bda5a290f47801a?family=FFX+LCD" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Project14</title>
     <script src="https://cdn.ckeditor.com/ckeditor5/41.1.0/classic/ckeditor.js"></script>
     <link rel="stylesheet" href="styles14.css">
 </head>
