@@ -1,19 +1,19 @@
-/* Định dạng CSS cho danh sách sản phẩm */
-.product-list {
-  /* CSS cho danh sách sản phẩm */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Định dạng CSS cho mỗi sản phẩm */
-.product {
-  /* CSS cho mỗi sản phẩm */
+.product-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-/* Định dạng CSS cho phân trang */
-.pagination {
-  /* CSS cho phân trang */
+.product{
+  width: 25%;
 }
 
-/* Định dạng CSS cho trang hiện tại */
-.pagination .active {
-  /* CSS cho trang hiện tại */
+.product img{
+  width: 100%;
 }
